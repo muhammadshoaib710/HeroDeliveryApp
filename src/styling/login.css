@@ -1,0 +1,193 @@
+.Login {
+  height: 100%;
+  width: 100%;
+  margin: 100px 0;
+}
+.carousel {
+  margin-bottom: 130px;
+  margin-top: 20px;
+  /* box-shadow: 4px 3px 26px -7px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 4px 3px 26px -7px rgba(0,0,0,0.4);
+    -moz-box-shadow: 4px 3px 26px -7px rgba(0,0,0,0.4); */
+  box-shadow: 4px 3px 26px -1px rgba(58, 50, 143, 0.4);
+  -webkit-box-shadow: 4px 3px 26px -1px rgba(58, 50, 143, 0.4);
+  -moz-box-shadow: 4px 3px 26px -1px rgba(58, 50, 143, 0.4);
+}
+.carousel img {
+  height: 100vh;
+}
+.InputSide h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+.InputSide p {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+.FormSection {
+  margin-left: 60px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+.button1 {
+  color: #fff !important;
+  margin-top: 20px;
+  width: 100%;
+  background-color: #000 !important;
+}
+.form-check {
+  margin-top: 10px;
+}
+.btn2 {
+  border: 1px solid #c5d0db !important;
+  background-color: #fff !important;
+  color: #000 !important;
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+}
+.SignUpLink {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.SignUpLink a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  margin-left: 2px;
+}
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.stateForm {
+  display: flex;
+  gap: 5px;
+}
+.SignUp {
+  height: 100%;
+  margin-top: 100px;
+}
+.leftBox {
+  padding: 15px 20px;
+  text-align: center;
+  box-shadow: 4px 3px 26px -7px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 4px 3px 26px -7px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 3px 26px -7px rgba(0, 0, 0, 0.4);
+}
+.leftBox h1 {
+  color: #25373f;
+  font-weight: 700;
+}
+.leftBox p {
+  margin: 10px 0;
+  color: #212529;
+  font-weight: 500;
+  font-size: 15px;
+}
+.VerifyStep {
+  margin: 20px 70px !important;
+  display: flex;
+  gap: 6rem;
+  width: 300px;
+  margin-left: 50px;
+}
+.Acount {
+  padding: 10px;
+  background-color: green;
+  border-radius: 80%;
+}
+.Personal {
+  padding: 10px;
+  background-color: green;
+  border-radius: 80%;
+}
+.Integration {
+  padding: 10px;
+  background-color: grey;
+  border-radius: 80%;
+}
+.leftBox h5 {
+  text-align: start !important;
+  color: #212529;
+  font-weight: 700;
+  font-size: 17px;
+}
+.leftBox h4 {
+  font-weight: 400 !important;
+  font-size: 16px;
+  text-align: start !important;
+}
+.leftBox input {
+  width: 100%;
+  margin: 7px 0;
+}
+.leftBox button {
+  margin-top: 8px;
+  width: 100%;
+}
+.leftBox a {
+  text-decoration: none;
+  color: #fff;
+}
+.CycleRight {
+  width: 600px;
+  height: 450px;
+  margin-top: -20px;
+}
+.sign2 {
+  height: 100vh;
+  margin-bottom: 450px;
+}
+@media (max-width: 1000px) {
+  .sign2 {
+    display: inline;
+    width: 100%;
+    text-align: center;
+  }
+  .CycleRight {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+  }
+  .SignUp {
+    text-align: center;
+    display: inline;
+  }
+  .SignUp input {
+    width: 100%;
+  }
+  .FormSection {
+    margin-left: 0;
+  }
+  .FormHeading {
+    margin-top: 50px;
+  }
+  .carousel img {
+    height: 100%;
+  }
+  .stateForm {
+    display: inline;
+  }
+  .SignUp {
+    width: 100%;
+  }
+  .leftBox {
+    width: 100%;
+  }
+  .VerifyStep {
+    gap: 1rem;
+    margin: 20px 0 !important;
+  }
+}
+@media (max-width: 350px) {
+  .VerifyStep {
+    gap: 0;
+  }
+}

@@ -1,0 +1,31 @@
+.Navbars img {
+  margin-top: 2px;
+}
+.home-link {
+  margin-left: 150px !important;
+}
+.nav-link {
+  font-weight: 500;
+  color: #000 !important;
+  margin-left: 50px;
+}
+.nav-item button {
+  font-weight: 500;
+  font-size: 19px;
+}
+.signUpbutton {
+  border: 1px solid #000 !important;
+  padding: 7px 10px !important;
+}
+.registerButton a {
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .home-link {
+    margin-left: 60px !important;
+  }
+}
+li {
+  list-style: none;
+}

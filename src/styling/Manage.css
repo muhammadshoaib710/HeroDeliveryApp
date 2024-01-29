@@ -1,0 +1,47 @@
+.Management {
+  height: 100%;
+  margin: 100px 0;
+}
+.M1Manage {
+  margin-top: 100px !important;
+  margin-bottom: 70px !important;
+}
+.M5Manage {
+  margin-top: 80px !important;
+}
+
+.M1Head {
+  text-align: center;
+}
+.M1Head h4 {
+  margin: 20px 0;
+  font-weight: 700;
+}
+.M1Head h1 {
+  color: #000000;
+  font-weight: 700;
+}
+.M1Row {
+  margin-top: 50px !important;
+}
+.M1Side {
+  margin-top: 20px !important;
+}
+.M1SideDES {
+  display: flex;
+  gap: 5px;
+}
+.M1Side svg {
+  color: #009241;
+  font-size: 25px;
+  font-weight: 700;
+}
+.M1Side h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.M1Side p {
+  margin-left: 30px;
+  font-size: 15px;
+  font-weight: 500;
+}

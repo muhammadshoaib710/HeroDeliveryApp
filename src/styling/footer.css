@@ -1,0 +1,70 @@
+.Footer {
+  margin: -150px 0;
+  height: 100%;
+  margin-bottom: 30px;
+}
+.firstFoooter h1 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #5b5654;
+  text-transform: uppercase;
+  width: 50px;
+  line-height: 36px;
+}
+.firstFoooter p {
+  margin: 20px 0;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  width: 150px;
+  color: #5b5654;
+}
+.SecondFoooter h1 {
+  color: #080809;
+  font-size: 21px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.SecondFoooter ul {
+  margin-top: 40px;
+}
+.SecondFoooter li {
+  font-size: 18px;
+  font-weight: 500;
+  color: #5e6282;
+  margin: 18px 0;
+}
+.SocialMedia svg {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.facebookIcon {
+  color: #316ff6;
+}
+.instaIcon {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 4px;
+}
+.Pinterest {
+  color: #e60023;
+}
+.LastFooter {
+  text-align: center;
+  margin-top: 100px;
+  color: #5e6282;
+  font-size: 14px;
+  font-weight: 500;
+}
